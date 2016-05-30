@@ -22,4 +22,4 @@
                      :compiler {;; Where to save the file:
                                 :output-to "resources/screen.css"
                                 ;; Compress the output?
-                                :pretty-print? false}}]})
+                                :pretty-print? true}}]})
