@@ -7,6 +7,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                           [garden "1.3.2"]
                           [me.raynes/fs "1.4.6"]
+                          [facjure/mesh "0.4.0"]
                           [ns-tracker "0.3.0"]]
   :main ^:skip-aot garden-css.core
   :target-path "target/%s"
