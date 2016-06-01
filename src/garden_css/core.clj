@@ -12,7 +12,7 @@
 (defstyles screen
   ;; I love these grids
   (grid/create-minimal-grid ".grid" (px 20))
-  [:body {
+  [:html {
     :width "100vw"
     :height "100vh"
     :font-family "sans-serif"
@@ -20,7 +20,7 @@
     :font-size (px 16)
     :line-height 1.5
      }
-   [:html
+   [:body
    {:width "100vw"
     :height "100vw"
     :background-color "black"
